@@ -34,7 +34,7 @@ L'application se compose des éléments suivants :
 ## Utilisation
 
 1. **Installation de Java** :
-   - Assurez-vous d'avoir Java JDK (version 11 ou supérieure) installé sur votre machine.
+   - Assurez-vous d'avoir Java JDK (version 8 ou supérieure) installé sur votre machine.
 
 2. **Installation de MySQL** :
    - Assurez-vous d'avoir MySQL installé et une base de données nommée `weatherApp` créée sur votre serveur MySQL.
