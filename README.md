@@ -1,4 +1,4 @@
-# Application de gestion météorologique
+![image](https://github.com/ChaimaaLachhab/WeatherAPP/assets/133171402/742ccbd2-7e51-4f07-95e0-7367f077f5ce)# Application de gestion météorologique
 
 L'application de gestion météorologique est une application Java console qui permet aux utilisateurs de stocker et de gérer des informations météorologiques pour différentes villes.
 
@@ -10,6 +10,8 @@ L'application se compose des éléments suivants :
    - `Menu`: Gère l'interface utilisateur.
    - `City`: Stocke les informations actuelles de la météo pour une ville donnée.
    - `CityHistory`: Stocke l'historique des données météorologiques pour une ville donnée.
+   - `ConnectionDB`: Gère la connexion à la base de données.
+
 
 2. **Utilisation de JDBC** : 
    - Les données météorologiques actuelles et historiques sont stockées dans une base de données MySQL.
