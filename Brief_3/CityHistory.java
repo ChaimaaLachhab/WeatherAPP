@@ -45,10 +45,10 @@ public class CityHistory {
 
     public static List<CityHistory> readCityHistory(int cityId, Connection connection) throws SQLException {
         List<CityHistory> citiesHistory = new ArrayList<>();
-        String sql = "SELECT ch.historicalDataId, ch.cityId, ch.eventDate, ch.temperature, c.cityName " +
-                "FROM CityHistory ch " +
-                "JOIN City c ON ch.cityId = c.cityId " +
-                "WHERE ch.cityId = ?";
+        String sql = "SELECT CityHistory.historicalDataId, CityHistory.cityId, CityHistory.eventDate, CityHistory.temperature, City.cityName" +
+                "FROM CityHistory" +
+                "JOIN City c ON CityHistory.cityId = City.cityId" +
+                "WHERE CityHistory.cityId = ?";
         try (PreparedStatement statement = connection.prepareStatement(sql)) {
             statement.setInt(1, cityId);
             try (ResultSet resultSet = statement.executeQuery()) {
@@ -110,16 +110,7 @@ public class CityHistory {
                 "  CityName = " + city.getCityName() +
                 " | HistoricalDataId = " + historicalDataId +
                 "\n                         | EvenDate = " + evenDate +
-                "\n                         | Temperature = " + temperature +
-                "\n";
+                "\n                         | Temperature = " + temperature +" °C\n";
     }
 
-
-    public City getCity() {
-        return city;
-    }
-
-    public void setCity(City city) {
-        this.city = city;
-    }
 }

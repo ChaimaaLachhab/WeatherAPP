@@ -115,11 +115,11 @@ public class City {
 
     @Override
     public String toString() {
-        return  "cityId=" + cityId +
+        return  "City Id=" + cityId +
                 " | City Name=" + cityName +
-                "\n         | Current Temperature=" + currentTemperature +"°C"+
-                "\n         | CurrentHumidity=" + currentHumidity +"%"+
-                "\n         | CurrentWindSpeed=" + currentWindSpeed +"Km/h\n";
+                "\n         | Current Temperature=" + currentTemperature +" °C"+
+                "\n         | Current Humidity=" + currentHumidity +" %"+
+                "\n         | Current WindSpeed=" + currentWindSpeed +" Km/h\n";
     }
 
 

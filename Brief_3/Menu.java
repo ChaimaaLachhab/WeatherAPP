@@ -7,11 +7,10 @@ import java.util.Scanner;
 public class Menu {
 
     public static void main(String[] args) {
-        ConnectionDB connecter = new ConnectionDB();
         Scanner scanner = new Scanner(System.in);
         int choice;
 
-        try (Connection connect = connecter.getConnection()) {
+        try (Connection connect = ConnectionDB.getConnection()) {
             do {
                 System.out.println();
                 System.out.println("....................CITY....................................CITY_HISTORY................");
@@ -50,7 +49,7 @@ public class Menu {
                         //Read City
                         System.out.println("\n.....................La liste des villes....................\n");
                         List<City> cities = City.readCity(connect);
-                        cities.forEach(x1 -> System.out.println(x1));
+                        cities.forEach(System.out::println);
                         break;
 
                     case 3:
