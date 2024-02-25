@@ -1,4 +1,4 @@
-![image](https://github.com/ChaimaaLachhab/WeatherAPP/assets/133171402/742ccbd2-7e51-4f07-95e0-7367f077f5ce)# Application de gestion météorologique
+# Application de gestion météorologique
 
 L'application de gestion météorologique est une application Java console qui permet aux utilisateurs de stocker et de gérer des informations météorologiques pour différentes villes.
 
