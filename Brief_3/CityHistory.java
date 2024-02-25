@@ -112,5 +112,4 @@ public class CityHistory {
                 "\n                         | EvenDate = " + evenDate +
                 "\n                         | Temperature = " + temperature +" °C\n";
     }
-
 }

@@ -54,5 +54,3 @@ L'application se compose des éléments suivants :
 ## Auteur
 
 - **CHAIMAA LACHHAB** - [Chaimaa Lachhab](https://github.com/ChaimaaLachhab, sous la supervision de l'école ENAA Béni Mellal.
-
-

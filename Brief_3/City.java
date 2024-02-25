@@ -121,4 +121,5 @@ public class City {
                 "\n         | Current Humidity=" + currentHumidity +" %"+
                 "\n         | Current WindSpeed=" + currentWindSpeed +" Km/h\n";
     }
+
 }
